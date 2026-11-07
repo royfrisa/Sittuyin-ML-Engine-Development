@@ -1,0 +1,46 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment and Secrets
+.env
+.env.*
+!.env.example
+
+# Node.js / React
+node_modules/
+dist/
+.vite/
+coverage/
+
+# Machine Learning Data
+ml/data/raw/*
+ml/data/processed/*
+
+# Preserve folder placeholders
+!ml/data/raw/.gitkeep
+!ml/data/processed/.gitkeep
+
+# ML model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
