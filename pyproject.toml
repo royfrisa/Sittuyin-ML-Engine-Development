@@ -21,6 +21,7 @@ dev = [
 testpaths = ["tests"]
 python_files = ["test_*.py"]
 addopts = "-ra"
+pythonpath = ["."]
 
 [tool.ruff]
 line-length = 88
